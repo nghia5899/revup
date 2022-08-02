@@ -5,6 +5,7 @@ import 'package:revup_ui/screen/request/detail-service-request.dart';
 import 'package:revup_ui/screen/request/info-request.dart';
 import 'package:revup_ui/screen/request/repair-completed.dart';
 import 'package:revup_ui/screen/request/select-option-complete.dart';
+import 'package:revup_ui/screen/service/add-service.dart';
 import 'package:revup_ui/styles/theme.dart';
 
 class MyApp extends StatefulWidget {
@@ -29,7 +30,7 @@ class _MyAppState extends State<MyApp> {
         title: 'Revup App',
         theme: appThemeData[AppTheme.Light],
         debugShowCheckedModeBanner: false,
-        home: const Account(),
+        home: const AddService(),
       ),
     );
   }

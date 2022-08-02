@@ -8,7 +8,7 @@ class SelectOptionComplete extends StatefulWidget {
   State<SelectOptionComplete> createState() => _SelectOptionCompleteState();
 }
 
-class _SelectOptionCompleteState extends State<SelectOptionComplete> {
+class _SelectOptionCompleteState extends State<SelectOptionComplete> with WidgetsBindingObserver {
   late ThemeData themeData;
   List<int> listRequestService = [1 , 2, 3];
 
